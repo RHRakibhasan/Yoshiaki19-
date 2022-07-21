@@ -1,0 +1,315 @@
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) { 
+    .header-area {
+        padding: 38px 40px 0 40px; 
+    }
+    .hero-right-img { 
+        right: 0%; 
+    }
+    .hero-content h1{
+        font-size: 65px;
+    }
+    .about-area {
+        padding: 135px  40px; 
+        z-index: 999;
+    }
+    .about-box h3 { 
+        padding: 0; 
+    }
+    .about-right-img { 
+        display: none;
+    }
+    .slick-slide img {
+        display: inline-block;
+        width: 78%;
+    }
+    span.priv-arrow.slick-arrow { 
+        left: -23px; 
+    }
+    span.next-arrow.slick-arrow { 
+        right: -8px; 
+    }
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) { 
+    .header-area {
+        padding: 38px 20px; 
+    }
+    .hero-area { 
+        padding: 200px 0;
+        background-position: bottom left;
+        background-size: cover;
+    }
+    .hero-content h1 { 
+        font-size: 55px;
+    }
+    .hero-right-img { 
+        right: 3%; 
+        width: 45%;
+    }
+    .slick-slide img { 
+        width: 70%;
+    }
+    span.next-arrow.slick-arrow { 
+        right: 20px; 
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+    }
+    span.priv-arrow.slick-arrow { 
+        left: 20px;
+        height: 50px;
+        width: 50px;
+        line-height: 50px; 
+    }
+    .footer-area { 
+        background-position: bottom;
+        padding: 270px 0 0 0;
+    }
+    .about-area {
+        padding: 40px 25px; 
+    }
+    .about-box h3 { 
+        line-height: 40px;
+        padding: 0; 
+        font-size: 38px;
+    }
+    .about-right-img { 
+        display: none; 
+    }
+    .services-area { 
+        padding: 95px 0 50px 0;
+    }
+    .get-start-area { 
+        padding: 60px 0; 
+    }
+    .get-starte-content h2 { 
+        margin-bottom: 5px;
+        font-size: 40px;
+    }
+    .box-list {
+        padding: 32px 40px 40px 50px; 
+    }
+    .white-paper {
+        padding: 0 30px; 
+    }
+    section.hero-area.hero-area-2 {
+        padding: 270px 0;
+    }
+    .contact-us-area {
+        margin-top: -60px; 
+    }
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) { 
+    .header-area {
+        padding: 30px 20px; 
+    }
+    .hero-right-img { 
+        right: 0; 
+        width: 50%;
+    }
+    .hero-content h1 {
+        line-height: 40px; 
+        margin-bottom: 9px;
+        font-size: 35px;
+    }
+    .hero-area { 
+        padding: 193px 0 100px 0;
+        background-position: bottom;
+    }
+    .about-area {
+        padding: 50px 25px;
+        position: relative;
+    }
+    .about-box h3 { 
+        line-height: 49px;
+        padding: 0; 
+        margin-top: 15px; 
+        font-size: 42px;
+    }
+    .about-box{
+        margin-bottom: 30px;
+    }
+    .about-right-img { 
+        top: 69%; 
+    }
+    span.next-arrow.slick-arrow { 
+        right: 0; 
+    }
+    span.priv-arrow.slick-arrow { 
+        left: 0; 
+    }
+    .get-starte-content p { 
+        padding: 0 62px;
+    }
+    .footer-single {
+        margin-bottom: 30px;
+    }
+    .footer-area { 
+        padding: 180px 0 0 0;
+        background-size: cover;
+        background-position: bottom;
+    }
+    .contact-box {
+        margin-right: 0px;
+    }
+    .buy-box {
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .hero-area.hero-area-2 {
+        padding: 310px 0;
+    } 
+    .white-paper {
+        padding: 0 0;
+        margin-bottom: -32px;
+    }
+    section.hero-area.hero-area-2 {
+        padding: 290px 0;
+    }
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) { 
+    .header-area {
+        padding: 20px 15px 0;
+        position: relative;
+    }
+    .logo a img {
+        max-width: 50%;
+    }
+    .hero-content h1 {
+        line-height: 42px; 
+        font-size: 32px;
+    }
+    .hero-right-img { 
+        display: none; 
+    }
+    .hero-content { 
+        margin-top: 60px;
+        padding: 0 15px;
+    }
+    .hero-area { 
+        background-size: cover; 
+        padding: 165px 15px;
+        background-position: bottom right;
+    }
+    .about-area {
+        padding: 100px 15px; 
+    }
+    .about-right-img { 
+        display: none; 
+    }
+    .about-area {
+        padding: 0px 15px 30px 15px;
+    }
+    .about-box {
+        margin-bottom: 30px;
+    }
+    .services-area { 
+        padding: 50px 0px;
+    }
+    .about-box h3 { 
+        line-height: 44px;
+        padding: 0; 
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+    .hero-content p { 
+        padding-right: 0;
+    } 
+    .get-starte-content p {
+        margin-bottom: 25px;
+        color: var(--color-white);
+        padding: 0;
+    }
+    .services-content h3 { 
+        margin-bottom: 16px;
+        font-size: 30px;
+    } 
+    .services-content { 
+        margin-top: 30px;
+    }
+    .slider-items {
+        margin-bottom: 30px;
+    }
+    .slider {
+        margin-bottom: 25px;
+    }
+    .get-start-area { 
+        padding: 90px 15px;
+        margin-top: 0;
+        margin-bottom: 0px;  
+    }
+    .get-starte-content h2 { 
+        margin-bottom: 7px;
+        font-size: 30px;
+    }
+    .btn { 
+        padding: 10px 25px; 
+    }
+    .footer-area { 
+        padding: 100px 15px 0;
+        background-size: cover;
+        background-position: bottom; 
+    }
+    .footer-single {
+        margin-bottom: 30px;
+    }
+    .contact-box {
+        margin-right: 0px;
+    }
+    .buy-box {
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    section.hero-area.hero-area-2 {
+        padding: 166px 0;
+    }
+    .hero-content { 
+        padding: 0;
+    }
+    .contact-us-area {
+        margin-top: 0;
+        margin-bottom: 90px;
+    }
+    .box-list {
+        padding: 32px 20px; 
+    }
+    .box-list ul li {
+        font-size: 14px; 
+    }
+    .white-paper {
+        padding: 0;
+        margin-bottom: 0; 
+    }
+    .single-paper {
+        margin-bottom: 30px;
+    }
+    
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 550px) and (max-width: 767px) { 
+      
+    span.priv-arrow.slick-arrow {
+        bottom: -15%;
+        top: auto;
+        left: 0;
+    }
+    span.next-arrow.slick-arrow {
+        right: 0;
+        bottom: -15%;
+        top: auto;
+    }
+    .box-list {
+        padding: 32px 135px;
+    }
+} 
